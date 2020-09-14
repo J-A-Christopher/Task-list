@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgrey ;
+}
+.list{
+   max-width: 400px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.btn{ 
+    width: 400px;
+    margin: auto;
+ } 
+
+ #input{
+     width: 100%;
+     padding: 10px;
+     border-radius: 10px;
+     margin-bottom: 12px;
+     border-color: chartreuse;
+ }
+
+
+ #task{
+     width: 90px;
+     border: none;
+     background-color: rgba(29, 202, 29, 0.884);
+     padding: 10px;
+     color: white;
+     border-radius: 5px;
+ }
+
+ #clear{
+width: 90px;
+border: none;
+background-color: rgba(255, 0, 0, 0.336);
+padding: 10px;
+color:cornsilk;
+border-radius: 5px;
+margin-bottom: 10px;
+ }
+
+
+ h2{
+     font-family: cursive;
+     color: rgba(4, 73, 73, 0.87);
+     color: white;
+ }
+
+ .myt{
+     border: 2px solid rgba(11, 11, 119, 0.671); 
+     width: 410px;
+     margin: auto;
+     margin-top: 30px;
+     border-radius: 10px;
+     background-image:url("./img/pexels-vlad-alexandru-popa-1402787.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     z-index: 5;
+ } 
+ /* .list{
+    border: 2px grey solid;
+ } */
+
+ .list{
+     list-style: none;
+     color: white;
+     /* width: 100px; */
+ }
+
+ /* .myt{
+     /* height: 75vh; */
+     /* border: 2px blue solid; */
